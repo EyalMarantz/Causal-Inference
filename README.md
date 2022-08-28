@@ -1,2 +1,6 @@
 # Causal-Inference
 Final project in the course Causal Inference in the Technion
+
+## Abstract
+Momentum in sport is considered as the probability of winning or the probability of losing as a function of the outcome of the preceding event. Sport psychologists have spent nearly three decades examining both perceptions of psychological momentum and links to performance and outcomes. In this project we explore the world of Tennis and estimate the power of momentum in it. Tennis is one of the most popular sport in world, it is an Olympic sport, and it is played at all levels of society and at all ages. We have used two datasets, the first one contains information about tennis matches (Competitions and etc.) and the second is filled with data about tennis players. After a deep investigation, we filtered the data in such a way where we (hopefully) looked only on games between two players which are equally-level. Then, we have considered the treatment (T) as winning the first set, and the outcome as winning/loosing the following one. We have used some models which where learned during the semester in order to calculate the ATE. All methods show a positive ATE, which might point that the winner of the first set is more likely to also win the following. 
+
